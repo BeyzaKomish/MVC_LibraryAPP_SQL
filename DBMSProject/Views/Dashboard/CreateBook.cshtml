@@ -1,0 +1,74 @@
+﻿@model DBMSProject.Models.Book
+
+<h2>Create Book</h2>
+
+<form asp-action="CreateBook" method="post">
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" class="form-control" id="Title" name="Title"  required />
+    </div>
+    <div class="form-group">
+        <label for="ISBN">ISBN</label>
+        <input type="text" class="form-control" id="ISBN" name="Isbn"  />
+    </div>
+    <div class="form-group">
+        <label for="PublishedYear">Published Year</label>
+        <input type="number" class="form-control" id="PublishedYear" name="PublishedYear"  />
+    </div>
+    <div class="form-group">
+        <label for="IsBorrowed">Is Borrowed?</label>
+        <input type="checkbox" id="IsBorrowed" name="IsBorrowed" checked="@Model.IsBorrowed" />
+    </div>
+    <div class="form-group">
+        <label for="Authors">Authors</label>
+
+        @foreach (var author in (List<Author>)ViewBag.AllAuthors)
+        {
+            <div>
+                <input type="checkbox"
+                       name="AuthorIds"
+                       value="@author.Id"
+              />
+                <label>@author.Name</label>
+            </div>
+        }
+    </div>
+    <div class="form-group">
+        <label for="Genres">Genres</label>
+        @foreach (var genre in (List<Genre>)ViewBag.AllGenres)
+        {
+            <div>
+                <input type="checkbox"
+                       name="GenreIds"
+                       value="@genre.Id" />
+                
+                <label>@genre.Name</label>
+            </div>
+        }
+    </div>
+    <div class="form-group">
+        <label for="Categories">Categories</label>
+        @foreach (var category in (List<Category>)ViewBag.AllCategories)
+        {
+            <div>
+                <input type="checkbox"
+                       name="CategoryIds"
+                       value="@category.Id"
+               />
+                <label>@category.Name</label>
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Book</button>
+</form>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}

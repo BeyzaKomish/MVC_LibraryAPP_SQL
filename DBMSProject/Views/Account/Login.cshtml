@@ -1,0 +1,10 @@
+﻿@using (Html.BeginForm())
+{
+    <label>Username:</label>
+    <input type="text" name="username" required />
+    <label>Password:</label>
+    <input type="password" name="password" required />
+    <button type="submit">Login</button>
+}
+<p style="color:red">@ViewBag.ErrorMessage</p>
+<p>Don't have an account? <a asp-action="Register" asp-controller="Account">Register here</a></p>

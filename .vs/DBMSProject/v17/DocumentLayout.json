@@ -1,0 +1,439 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\librariandashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\librariandashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\borrowedbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\borrowedbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\listbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\listbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\listreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\listreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\addreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\addreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\updatebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\updatebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\dashboard\\deletebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\dashboard\\deletebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|c:\\users\\beyza\\onedrive\\desktop\\dbmsproject\\dbmsproject\\dbmsproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CA634F-3F62-4C43-A6D6-C0924F355946}|DBMSProject\\DBMSProject.csproj|solutionrelative:dbmsproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 595,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "DBMSProject\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:33:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\StudentDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T15:37:21.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddReview.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\AddReview.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\AddReview.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\AddReview.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\AddReview.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T10:06:34.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Student.cs",
+              "RelativeToolTip": "DBMSProject\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:03:31.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibrarianDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\LibrarianDashboard.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\LibrarianDashboard.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\LibrarianDashboard.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\LibrarianDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T15:37:55.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BorrowedBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\BorrowedBooks.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\BorrowedBooks.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\BorrowedBooks.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\BorrowedBooks.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T20:23:44.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\ListBooks.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\ListBooks.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\ListBooks.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\ListBooks.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T15:46:04.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\CreateBook.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\CreateBook.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\CreateBook.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\CreateBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T18:27:47.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T14:33:57.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListReview.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\ListReview.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\ListReview.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\ListReview.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\ListReview.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T09:53:27.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Review.cs",
+              "RelativeToolTip": "DBMSProject\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:38:58.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\UpdateBook.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\UpdateBook.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\UpdateBook.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\UpdateBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T12:53:07.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DBMSProject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA4wCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:22:01.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Data\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Data\\LibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Data\\LibraryDbContext.cs",
+              "RelativeToolTip": "DBMSProject\\Data\\LibraryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:35:35.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\DeleteBook.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Dashboard\\DeleteBook.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Dashboard\\DeleteBook.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Dashboard\\DeleteBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T19:10:25.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T14:34:18.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Book.cs",
+              "RelativeToolTip": "DBMSProject\\Models\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:46:53.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DBMSProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:27:38.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Program.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Program.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Program.cs",
+              "RelativeToolTip": "DBMSProject\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:27:20.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\appsettings.json",
+              "RelativeDocumentMoniker": "DBMSProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\appsettings.json",
+              "RelativeToolTip": "DBMSProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-16T12:54:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\User.cs",
+              "RelativeToolTip": "DBMSProject\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:46:34.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\Category.cs",
+              "RelativeToolTip": "DBMSProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:39:01.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T15:51:29.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DBMSProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DBMSProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T16:27:35.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DBMSProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\beyza\\OneDrive\\Desktop\\DBMSProject\\DBMSProject\\DBMSProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DBMSProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:13:19.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

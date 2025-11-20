@@ -1,0 +1,90 @@
+﻿@model DBMSProject.Models.Book
+
+@{
+    ViewData["Title"] = "Update Book";
+}
+
+<h1>Update Book</h1>
+
+<form method="post" asp-controller="Dashboard" asp-action="UpdateBook">
+
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" class="form-control" id="Title" name="Title" value="@Model.Title" required />
+    </div>
+
+    <div class="form-group">
+        <label for="ISBN">ISBN</label>
+        <input type="text" class="form-control" id="ISBN" name="ISBN" value="@Model.Isbn" required />
+    </div>
+
+    <div class="form-group">
+        <label for="PublishedYear">Published Year</label>
+        <input type="number" class="form-control" id="PublishedYear" name="PublishedYear" value="@Model.PublishedYear" required />
+    </div>
+
+    <div class="form-group">
+        <label for="IsBorrowed">Is Borrowed</label>
+        <select class="form-control" id="IsBorrowed" name="IsBorrowed">
+            <option value="true" >Yes</option>
+            <option value="false">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Genres">Genres</label>
+            @foreach (var genre in (List<Genre>)ViewBag.AllGenres)
+            {
+                <div>
+                    <input type="checkbox"
+                            name="GenreIds"
+                            value="@genre.Id"
+                            @if (Model.Genres.Any( a=> a.Id == genre.Id))
+                            {
+                                <text>checked</text>
+                            }>
+                    <label>@genre.Name</label>
+                </div>
+            }
+    </div>
+
+    <div class="form-group">
+        <label for="Authors">Authors</label>
+
+        @foreach (var author in (List<Author>)ViewBag.AllAuthors)
+                {
+                    <div>
+                        <input type="checkbox"
+                                name="AuthorIds"
+                                value="@author.Id"
+                        @if (Model.Authors.Any(a => a.Id == author.Id))
+                        {
+                            <text>checked</text>
+                        }>
+                        <label>@author.Name</label>
+                    </div>
+                }
+    </div>
+
+    <div class="form-group">
+        <label for="Categories">Categories</label>
+        @foreach (var category in (List<Category>)ViewBag.AllCategories)
+                {
+                    <div>
+                        <input type="checkbox"
+                               name="CategoryIds"
+                       value="@category.Id"
+                @if (Model.Categories.Any(a => a.Id == category.Id))
+                        {
+                            <text>checked</text>
+                        }>
+                <label>@category.Name</label>
+                    </div>
+                }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Book</button>
+    <a href="@Url.Action("ListBooks")" class="btn btn-secondary">Cancel</a>
+</form>

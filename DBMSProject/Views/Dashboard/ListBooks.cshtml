@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Books</h1>
+
+<h2>Search Books</h2>
+
+@using (Html.BeginForm("SearchBooks", "Dashboard", FormMethod.Get))
+{
+    <div class="form-inline mb-3">
+
+        <input type="text" name="searchTerm" class="form-control mr-2" placeholder="Search Books by Title" value="@ViewBag.SearchTerm" />
+        <button type="submit" class="btn btn-primary">Search</button>
+
+
+    </div>
+
+}
+
+<table class="table">
+   
+        <thead>
+            <tr>
+                 <th>Title</th>
+                 <th>ISBN</th>
+                 <th>Published Year</th>
+                 <th>Authors</th>
+                 <th>Genres</th>
+                 <th>Categories</th>
+                 <th>Borrowed By</th>
+            @if (@ViewBag.UserType == "Student")
+            {
+                <th>Review</th>
+            }
+            <th>Action</th>
+
+            </tr>
+        </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Isbn</td>
+                <td>@book.PublishedYear</td>
+                <td>
+                    @string.Join(", ", book.Authors.Select(a => a.Name))
+                </td>
+                <td>
+             
+                        @string.Join(", ", book.Genres.Select(a => a.Name))  
+                </td>
+              
+                <td>                   
+                        @string.Join(", ", book.Categories.Select(a => a.Name))
+
+                </td>
+                <td>
+                    @if (book.IsBorrowed && book.Student != null)
+                    {
+                        @book.Student.IdNavigation.UserName 
+                    }
+                    else
+                    {
+                        <span>Not Borrowed</span>
+                    }
+                </td>
+                @if (@ViewBag.UserType == "Student")
+                {
+                <td>
+                        <a type="button" asp-action="AddReview" asp-route-id="@book.Id">Leave Review</a>
+                    
+                  </td>
+                }
+                <td>
+                    @if (@ViewBag.UserType == "Student")
+                    {
+                        @if (book.IsBorrowed == false)
+                        {
+                            <a type="button" asp-action="BorrowBook" asp-route-id="@book.Id">Borrow</a>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary" disabled>Borrowed</button>
+
+                        }
+                    }
+                    @if (@ViewBag.UserType == "Librarian")
+                    {
+                        <a type="button" asp-action="UpdateBook" asp-route-id="@book.Id">Update</a>
+                        <a type="button" asp-action="DeleteBook" asp-route-id="@book.Id">Delete</a>
+
+                    }
+                </td>
+             
+                
+            </tr>
+         }
+    </tbody>
+        
+</table>

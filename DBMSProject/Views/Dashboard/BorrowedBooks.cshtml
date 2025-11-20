@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Books</h1>
+
+<h2>Search Books</h2>
+
+@using (Html.BeginForm("SearchBooks", "Dashboard", FormMethod.Get))
+{
+    <div class="form-inline mb-3">
+
+        <input type="text" name="searchTerm" class="form-control mr-2" placeholder="Search Books by Title" value="@ViewBag.SearchTerm" />
+        <button type="submit" class="btn btn-primary">Search</button>
+
+
+    </div>
+
+}
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>ISBN</th>
+            <th>Published Year</th>
+           
+            <th>Borrowed By</th>
+          
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Isbn</td>
+                <td>@book.PublishedYear</td>
+           
+                <td>
+                    @if (book.IsBorrowed && book.Student != null)
+                    {
+                        @book.Student.IdNavigation.UserName
+                    }
+                    else
+                    {
+                        <span>Not Borrowed</span>
+                    }
+                </td>
+            
+                <td>
+                 
+                        @if (book.IsBorrowed == true)
+                        {
+                            <a type="button" asp-action="ReturnBook" asp-route-id="@book.Id" class="btn btn-danger">Return</a>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary" disabled>Borrowed</button>
+
+                        }
+             
+                 
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+
+</table>

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<DBMSProject.Models.Review>
+
+<h1>List of Reviews</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Student Name</th>
+            <th>Book Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var review in Model)
+        {
+            <tr>
+                <td>@review.Title</td>
+                <td>@review.Description</td>
+                <td>@review.Student?.IdNavigation?.UserName</td>
+                <td>@review.Book?.Title</td>
+            </tr>
+        }
+    </tbody>
+</table>
